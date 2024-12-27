@@ -1,0 +1,25 @@
+{
+  "name": "@ihccc/server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "/bin/www",
+  "scripts": {
+    "dev": "nodemon ./bin/www --watch src",
+    "start": "node ./bin/www"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^11.0.2",
+    "dotenv": "^16.3.1",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "lodash": "^4.17.21",
+    "nanoid": "3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
