@@ -1,5 +1,5 @@
 {
-  "name": "@ihccc/server",
+  "name": "ihccc-server",
   "version": "1.0.0",
   "description": "",
   "type": "commonjs",
